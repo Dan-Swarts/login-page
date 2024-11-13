@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "build:client": "cd client && npm run build",
+        "build:server": "cd server && npm run build",
+        "build": "npm run build:client && npm run build:server",
+
+        "start:client": "cd client && npm run start",
+        "start:server": "cd server && npm run start",
+        "start": "npm run start:client && npm run start:server",
+
+        "dev:server": "cd server && npx nodemon"
+    }
+}
