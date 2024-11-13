@@ -1,0 +1,3 @@
+DROP DATABASE if EXISTS kanban_db;
+
+CREATE DATABASE kanban_db;
